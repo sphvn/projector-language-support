@@ -2,7 +2,7 @@
     "name": "projector-language-support",
     "displayName": "Projector Language Support",
     "description": "Syntax highlighting for Projector",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sphvn",
     "engines": {
         "vscode": "^1.16.0"
