@@ -1,0 +1,26 @@
+{
+    "name": "projector-language-support",
+    "displayName": "Projector Language Support",
+    "description": "Syntax highlighting for Projector",
+    "version": "0.0.1",
+    "publisher": "sphvn",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "projector",
+            "aliases": ["Projector", "projector"],
+            "extensions": [".prj"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "projector",
+            "scopeName": "source.projector",
+            "path": "./syntaxes/projector.tmLanguage.json"
+        }]
+    }
+}
