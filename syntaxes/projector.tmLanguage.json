@@ -13,7 +13,7 @@
     "keywords": {
       "patterns": [{
         "name": "keyword.control.projector",
-        "match": "\\b(if|while|for|return)\\b"
+        "match": "\\b(case|of|each)\\b"
       }]
       },
       "strings": {
